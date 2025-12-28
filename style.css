@@ -1,0 +1,26 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Buttons */
+.buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
