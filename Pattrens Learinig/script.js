@@ -62,11 +62,8 @@ function createUsers () {
 //The Observer Pattern is a way to make one object (called the subject) notify other objects (called observers) automatically when something changes.
 
 // Think of it like a subscription:
-
 // The subject is like a YouTube channel.
-
 // Observers are like subscribers.
-
 // When the channel uploads a new video, all subscribers get notified.
 
 class NewsChannel {
