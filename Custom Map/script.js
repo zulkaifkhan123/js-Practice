@@ -14,6 +14,6 @@ function myMap(array , callback){
 let array = [1,2,3];
 let ans = myMap(array,function(arr){
     return arr + 1 ;
-})
+});
 
 console.log(ans)
