@@ -3,18 +3,18 @@
 
 // 1st way to do prototypal inhertience  (Recommended).
 
-// let obj = {
-//     name : "Zulkaif"
-// }
+let obj = {
+    name : "Zulkaif"
+}
 
-// let obj2 = Object.create(obj)
-// obj2.age = 23;
+let obj2 = Object.create(obj)
+obj2.age = 23;
 
 
-// let obj3 = Object.create(obj2)
-// obj3.roll = 294
+let obj3 = Object.create(obj2)
+obj3.roll = 294
 
-// console.log(obj3)
+console.log(obj3)
 
 
 
