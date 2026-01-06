@@ -2,7 +2,7 @@
 
 let primise = new Promise((res)=>{
     setTimeout(()=>{
-        res("First Step Done !");
+        res("First Step Done !")
     },2000)
     clearTimeout();
 })
